@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "cypress": "^13.6.0",
+    "json-server-auth": "^2.1.0",
+    "json-server-reset": "^1.6.0"
+  },
+  "scripts": {
+    "npm:run:server": "npx json-server-auth http://jsonplaceholder.typicode.com/db"
+  },
+  "name": "ex_tasksjs-api",
+  "version": "1.0.0",
+  "main": "automateAPI.js",
+  "devDependencies": {
+    "@faker-js/faker": "^8.3.1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
